@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   /* display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,7 +135,14 @@ body {
   background-color: #f6f6f6;
 }
 
-.clients-total {
+.total-clients {
   margin: 20px 0;
   color: #7e7e7e;
+}
+.timestamp {
+  display: block;
+  font-size: 0.8em;
+  color: #bbb;
+  margin-top: 5px;
+  text-align: right;
 }
